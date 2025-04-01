@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IronBoard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/img/icon_80x80.png">
+    <script src="main.js" type="module" defer></script>
+    
+
+
+</head>
+<body>
+
+    <header>
+        <img class="logo" src="/img/image-Photoroom (1).png" alt="Логотип">
+        <div class="nav-container">
+        <nav class="navbar">
+            <a href="#home">Головна</a>
+            <a href="#buy">Купити</a>
+            <a href="#team">Команда</a>
+        </nav>
+    </div>
+    </header>
+
+    <div class="blur-left"></div>
+
+    <section id="home" class="section"> 
+        <div class="main-content">
+            <div class="main-photo-conteiner"></div> 
+            <img class="main-photo1" src="/img/505941207-Photoroom.png" alt="IronBoard">
+            <img class="main-photo2" src="/img/505941211-Photoroom.png" alt="IronBoard">
+            <h1>IRON <span class="highlight"><br>BOARD</br></span></h1>
+            <p>Arduino-пристрій для відображення характеристик ПК на окремому екрані.</p>
+        </div>
+    </section>
+
+    <div class="nav-dots">
+        <div class="dot active" data-target="home"></div>
+        <div class="dot" data-target="buy"></div>
+        <div class="dot" data-target="team"></div>
+    </div>
+    
+    <section id="buy" class="section">
+        <div class="product-container">
+            <div class="product">
+                <h2>IronBoard Mini</h2>
+                <img src="/img/LCD-Character-02x16-K1Z-STN-blue-white-backlight-display-front__82545-Photoroom.png" alt="IronBoard Mini">
+                <ul>
+                    <li>LCD-дисплей 16x2</li>
+                    <li>I2C підключення</li>
+                    <li>Компактний розмір</li>
+                    <li>Живлення 5V</li>
+                    <li>Arduino-сумісний</li>
+                    <li>Корпус у комплекті</li>
+                </ul>
+                <p class="price">Ціна: $49</p>
+                <button class="buy-btn">Купити</button>
+            </div>
+    
+            <div class="product">
+                <h2>IronBoard Classic</h2>
+                <img src="/img/wmremove-transformed_1-Photoroom.png" alt="IronBoard Classic">
+                <ul>
+                    <li>LCD-дисплей 20x4</li>
+                    <li>Інтегрований I2C</li>
+                    <li>Збільшене відображення</li>
+                    <li>Живлення 5V</li>
+                    <li>Зручний у проєктах</li>
+                    <li>Корпус у комплекті</li>
+                </ul>
+                <p class="price">Ціна: $79</p>
+                <button class="buy-btn">Купити</button>
+            </div>
+    
+            <div class="product">
+                <h2>IronBoard DigitalPRO</h2>
+                <img src="/img/06092023232009-Photoroom.png" alt="IronBoard DigitalPRO">
+                <ul>
+                    <li>LCD-дисплей 128x64</li>
+                    <li>SPI/I2C підтримка</li>
+                    <li>Графічний режим</li>
+                    <li>Живлення 3.3V-5V</li>
+                    <li>Розширені можливості</li>
+                    <li>Корпус у комплекті</li>
+                </ul>
+                <p class="price">Ціна: $109</p>
+                <button class="buy-btn">Купити</button>
+            </div>
+        </div>
+    </section>
+    
+    <section id="team" class="section">
+        <div class="team-container">
+            <div class="team-member">
+                <img src="/img/team/Вадим (1) (1).jpg" alt="Приступа Вадим">
+                <div class="name">Приступа Вадим</div>
+                <div class="role">Full-Stack Designer</div>
+            </div>
+    
+            <div class="team-member">
+                <img src="/img/team/Михайло.jpg" alt="Гузюк Михайло">
+                <div class="name">Гузюк Михайло</div>
+                <div class="role">3D Modeler</div>
+            </div>
+    
+            <div class="team-member">
+                <img src="/img/team/Богдан (1).jpg" alt="Воронюк Богдан">
+                <div class="name">Воронюк Богдан</div>
+                <div class="role">Embedded Engineer</div>
+            </div>
+    
+            <div class="team-member">
+                <img src="/img/team/Рома.png" alt="Дарміць Роман">
+                <div class="name">Дарміць Роман</div>
+                <div class="role">Technical Assembler</div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+<footer>
+    <p>&copy; 2025 IronBoard. Усі права захищені.</p>
+</footer>
+
+</html>
